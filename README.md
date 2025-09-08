@@ -42,6 +42,7 @@ Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
 1. AI-Powered Crop Recommendation
+   
    1.Personalized crop suggestions based on.
    
      -Soil health data (pH, nutrients, moisture).
@@ -52,7 +53,7 @@ Agriculture, FoodTech & Rural Development
    
    2.ML models predict best crop choice, sowing window, and yield estimate.
 
-3. Smart Advisory System
+2. Smart Advisory System
 
    -Fertilizer & Irrigation Guidance → dosage & timing alerts via SMS/IVR/app.
    
@@ -60,7 +61,7 @@ Agriculture, FoodTech & Rural Development
    
    -Harvest & Storage Tips → reduce post-harvest losses.
 
-4. Multi-Channel Farmer Support
+3. Multi-Channel Farmer Support
 
    -Mobile App (lightweight, multilingual, voice-enabled).
    
