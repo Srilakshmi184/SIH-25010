@@ -42,33 +42,51 @@ Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
 1. AI-Powered Crop Recommendation
-   -Personalized crop suggestions based on:
-   -Soil health data (pH, nutrients, moisture).
-   -Local weather forecast (rainfall, temperature).
-   -Historical yield data and crop rotation cycles.
-   -ML models predict best crop choice, sowing window, and yield estimate.
+   1.Personalized crop suggestions based on.
+   
+     -Soil health data (pH, nutrients, moisture).
+   
+     -Local weather forecast (rainfall, temperature).
 
-2. Smart Advisory System
+     -Historical yield data and crop rotation cycles.
+   
+   2.ML models predict best crop choice, sowing window, and yield estimate.
+
+3. Smart Advisory System
+
    -Fertilizer & Irrigation Guidance → dosage & timing alerts via SMS/IVR/app.
+   
    -Pest & Disease Forecasting → early warnings using satellite + predictive ML.
+   
    -Harvest & Storage Tips → reduce post-harvest losses.
 
-3. Multi-Channel Farmer Support
+4. Multi-Channel Farmer Support
+
    -Mobile App (lightweight, multilingual, voice-enabled).
+   
    -SMS & IVR Service → inclusive for non-smartphone users.
 
 ## Technical Approach
 1.System Architecture
+
   * Data Layer
+    
       -Weather APIs (IMD, OpenWeather, ISRO satellite data).
+    
       -Government soil health card database or IoT soil sensors.
+    
       -Market price APIs / mandi data.
+    
   * Processing & AI Layer
+    
       -ML models for crop selection, yield prediction, pest/disease forecasting.
+    
       -Rule-based engine for simple advisories (fertilizer dosage, irrigation reminders).
+    
       -NLP models for voice queries in regional languages.
 
 ## Technology Stack
+
   1.Backend: Python (FastAPI / Django) + Node.js for microservices.
   
   2.AI/ML: TensorFlow / PyTorch, scikit-learn, pretrained agri-disease models.
@@ -80,6 +98,7 @@ Agriculture, FoodTech & Rural Development
   5.Frontend: React Native for mobile app (Android/iOS); SMS gateway (Twilio / Gupshup).
 
 ## Feasibility and Viability
+
 1.TECHNICAL FEASIBILITY
 
 2.OPERATIONAL FEASIBILITY
@@ -92,5 +111,9 @@ Agriculture, FoodTech & Rural Development
 
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+
+1.AI-Driven Crop Disease Detection & Smart Irrigation (Fuzzy Logic + IoT)
+
+2.AI-Powered Web Advisory for Small Farmers (No IoT)
+
+3.NICRA (National Innovations in Climate Resilient Agriculture)
