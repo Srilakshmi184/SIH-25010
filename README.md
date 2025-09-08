@@ -87,15 +87,9 @@ Agriculture, FoodTech & Rural Development
 3.ECONOMIC FEASIBILITY
 
 ## Impact and Benefits
-1. Agricultural Impact
-    Higher Productivity – Farmers get crop-specific, weather-aware guidance leading to improved yields.
-    Reduced Losses – Early alerts for pests, diseases, and climate risks minimize crop damage.
-    Better Resource Use – Optimized irrigation and fertilizer schedules save water, seeds, and chemicals.
 
-2. Farmer-Centric Impact
-    Accessibility for All – Works on smartphones (app) as well as basic phones (SMS/IVR), with voice & regional language support.
-    Economic Empowerment – Access to mandi prices and selling recommendations improves profit margins.
-    Knowledge Sharing – Community features and expert connect build farmer confidence.
+<img width="1536" height="1024" alt="impacts" src="https://github.com/user-attachments/assets/eb7e3336-1e6c-48fb-9f0b-21d0e8150e40" />
+
 
 ## Research and References
 <h3>Remove These Lines</h3>
