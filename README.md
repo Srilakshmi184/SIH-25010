@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 08|09|2025
+## Register Number: 212224100057
+## Name: SRILAKSHMI.B.H
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,27 +41,61 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+1. AI-Powered Crop Recommendation
+   -Personalized crop suggestions based on:
+   -Soil health data (pH, nutrients, moisture).
+   -Local weather forecast (rainfall, temperature).
+   -Historical yield data and crop rotation cycles.
+   -ML models predict best crop choice, sowing window, and yield estimate.
+
+2. Smart Advisory System
+   -Fertilizer & Irrigation Guidance → dosage & timing alerts via SMS/IVR/app.
+   -Pest & Disease Forecasting → early warnings using satellite + predictive ML.
+   -Harvest & Storage Tips → reduce post-harvest losses.
+
+3. Multi-Channel Farmer Support
+   -Mobile App (lightweight, multilingual, voice-enabled).
+   -SMS & IVR Service → inclusive for non-smartphone users.
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+1.System Architecture
+  * Data Layer
+      -Weather APIs (IMD, OpenWeather, ISRO satellite data).
+      -Government soil health card database or IoT soil sensors.
+      -Market price APIs / mandi data.
+  * Processing & AI Layer
+      -ML models for crop selection, yield prediction, pest/disease forecasting.
+      -Rule-based engine for simple advisories (fertilizer dosage, irrigation reminders).
+      -NLP models for voice queries in regional languages.
+
+## Technology Stack
+  1.Backend: Python (FastAPI / Django) + Node.js for microservices.
+  
+  2.AI/ML: TensorFlow / PyTorch, scikit-learn, pretrained agri-disease models.
+  
+  3.Database: PostgreSQL + TimescaleDB (for time-series weather data).
+  
+  4.Cloud & IoT: AWS / Azure / NIC cloud; optional low-cost soil sensors (LoRa, Arduino).
+  
+  5.Frontend: React Native for mobile app (Android/iOS); SMS gateway (Twilio / Gupshup).
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+1.TECHNICAL FEASIBILITY
+
+2.OPERATIONAL FEASIBILITY
+
+3.ECONOMIC FEASIBILITY
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+1. Agricultural Impact
+    Higher Productivity – Farmers get crop-specific, weather-aware guidance leading to improved yields.
+    Reduced Losses – Early alerts for pests, diseases, and climate risks minimize crop damage.
+    Better Resource Use – Optimized irrigation and fertilizer schedules save water, seeds, and chemicals.
+
+2. Farmer-Centric Impact
+    Accessibility for All – Works on smartphones (app) as well as basic phones (SMS/IVR), with voice & regional language support.
+    Economic Empowerment – Access to mandi prices and selling recommendations improves profit margins.
+    Knowledge Sharing – Community features and expert connect build farmer confidence.
 
 ## Research and References
 <h3>Remove These Lines</h3>
